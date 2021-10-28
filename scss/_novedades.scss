@@ -1,0 +1,29 @@
+.novedades-juego{
+    margin-bottom: $margen-sm;
+}
+.novedades-juego__imagen{
+    max-width: 275px;
+}
+.novedades-videos{
+    display: flex;
+    flex-wrap: wrap;
+    @media screen and (min-width: 1200px){
+    display: block;
+    }
+}
+.novedades-videos__video{
+    margin-bottom: 2%;
+    width: 100%;
+    @media screen and (min-width: 768px)
+    {
+    width: 48%;
+    margin-right: 2%;
+    }
+    @media screen and (min-width: 1200px)
+    {
+    max-width: 22rem;
+    margin-right: 0;
+    margin-bottom: 0;
+    width: 100%;
+    }
+}

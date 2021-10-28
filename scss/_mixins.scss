@@ -1,0 +1,33 @@
+@mixin subtitulos( $color , $espaciado, $size ){
+    font-size: $size;
+    letter-spacing: $espaciado;
+    margin-top:10px;
+    color: $color;
+}
+@mixin fondo-oscuro ( $color-fondo ){
+    background-color: $color-fondo;
+    color: #fff;
+}
+@mixin linea ( $ancho ){
+    background-color: $color-rojo;
+    height: 2px;
+    width: $ancho;
+    margin-bottom: $margen-sm ;
+    margin-top: $margen-sm ;
+}
+@mixin linkSinLinea{
+    text-decoration: none;
+}
+@mixin etiqueta($fondo , $texto , $colorBorde ){
+    background-color: $fondo;
+    padding: 5px 10px;
+    margin-bottom: 15px;
+    color: $texto;
+    font-size: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 6px;
+    border: 1px solid $colorBorde;
+}
+
+

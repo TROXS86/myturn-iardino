@@ -1,0 +1,379 @@
+.section-novedades .divisor {
+  background-color: #ec2049;
+  height: 2px;
+  width: 35px;
+  margin-bottom: 35px;
+  margin-top: 35px; }
+
+.section-novedades__contenedor {
+  display: flex; }
+
+.section-novedades__iframe {
+  border-radius: 6px; }
+
+.novedades.bloque4 {
+  margin-left: 0%;
+  display: flex;
+  flex-direction: column; }
+  @media screen and (min-width: 992px) {
+    .novedades.bloque4 {
+      margin-left: 35px; } }
+
+.novedad__titulo {
+  margin-bottom: 10px; }
+
+.novedad__texto {
+  margin-bottom: 5px; }
+
+.juego-nuevo {
+  display: flex;
+  margin-bottom: 35px; }
+  .juego-nuevo .divisor {
+    background-color: #ec2049;
+    height: 2px;
+    width: 70px;
+    margin-bottom: 35px;
+    margin-top: 35px; }
+
+.categorias {
+  display: flex; }
+
+.categoria {
+  margin-right: 10px;
+  display: flex;
+  align-items: center; }
+
+.categoria.genero {
+  background-color: #ec2049;
+  padding: 5px 10px;
+  margin-bottom: 15px;
+  color: #fff;
+  font-size: 10px;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 6px;
+  border: 1px solid #ec2049; }
+
+.categoria.players {
+  background-color: #fff;
+  padding: 5px 10px;
+  margin-bottom: 15px;
+  color: #ec2049;
+  font-size: 10px;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 6px;
+  border: 1px solid #ec2049; }
+
+.categoria.dificultad {
+  background-color: #e16178;
+  padding: 5px 10px;
+  margin-bottom: 15px;
+  color: #fff;
+  font-size: 10px;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 6px;
+  border: 1px solid #e16178; }
+
+.categoria.tiempo {
+  background-color: #e15a89;
+  padding: 5px 10px;
+  margin-bottom: 15px;
+  color: #fff;
+  font-size: 10px;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 6px;
+  border: 1px solid #e15a89; }
+
+.juego-nuevo__imagen {
+  width: calc(40% - 40px);
+  margin-right: 40px;
+  flex-shrink: 0; }
+
+@media screen and (min-width: 1200px) {
+  .juego-nuevo__texto {
+    width: 60%;
+    padding-right: 40px; } }
+
+.juego-nuevo__texto p {
+  margin-bottom: 35px; }
+
+.home-link__link {
+  text-decoration: none;
+  border: 0 !important; }
+
+.home-link__titulo {
+  font-size: 26px;
+  margin-bottom: 17.5px;
+  text-transform: none; }
+
+.imagen {
+  display: block;
+  width: 100%;
+  height: auto;
+  padding-left: 20px; }
+
+.imagen2 {
+  width: 20%;
+  height: auto; }
+
+.rectangulo {
+  background-color: #e15a89;
+  height: 35px;
+  width: 8px;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-top: 5px; }
+
+.bloque {
+  margin-bottom: 20px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  width: 100%; }
+
+.bloque3 {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 70px; }
+  @media screen and (min-width: 768px) {
+    .bloque3 {
+      flex-direction: row; } }
+
+.bloque5 {
+  display: flex;
+  flex-direction: row-reverse; }
+  @media screen and (max-width: 992px) {
+    .bloque5 {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center; } }
+
+.--just {
+  justify-content: center; }
+
+.rowalt {
+  margin-top: 35px; }
+
+.contend {
+  display: flex;
+  height: auto;
+  display: inline; }
+
+.ingresar {
+  margin-top: 100px;
+  margin-bottom: 100px; }
+
+th {
+  width: 20%;
+  text-transform: uppercase; }
+
+.imag {
+  padding-left: 0px;
+  max-width: 350px;
+  height: 100%;
+  width: 100%;
+  margin: auto; }
+  @media screen and (min-width: 768px) {
+    .imag {
+      padding-left: 35px;
+      max-width: none; } }
+
+:first-letter {
+  text-transform: capitalize; }
+
+p {
+  text-transform: none; }
+
+.reg {
+  grid-area: reg;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-style: solid;
+  border-color: #e64c66;
+  border-radius: 10px;
+  margin-top: 70px;
+  background-image: linear-gradient(to bottom, white, #dddddb); }
+
+.novedades-video {
+  width: 100%;
+  height: 100%;
+  min-height: 350px; }
+
+@media screen and (max-width: 992px) {
+  h3 {
+    font-size: 15px; }
+  .col-4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+  .col-6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+  .col-8 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px; }
+  p {
+    text-align: justify;
+    text-justify: inter-word; }
+  .bloquetitulo {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center; } }
+
+.bloquetitulo {
+  margin-bottom: 35px;
+  text-align: center; }
+
+.bloquetituloimg {
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 35px; }
+
+.novedades-juego {
+  margin-bottom: 35px; }
+
+.novedades-juego__imagen {
+  max-width: 275px; }
+
+.novedades-videos {
+  display: flex;
+  flex-wrap: wrap; }
+  @media screen and (min-width: 1200px) {
+    .novedades-videos {
+      display: block; } }
+
+.novedades-videos__video {
+  margin-bottom: 2%;
+  width: 100%; }
+  @media screen and (min-width: 768px) {
+    .novedades-videos__video {
+      width: 48%;
+      margin-right: 2%; } }
+  @media screen and (min-width: 1200px) {
+    .novedades-videos__video {
+      max-width: 22rem;
+      margin-right: 0;
+      margin-bottom: 0;
+      width: 100%; } }
+
+.cm-videos__video {
+  margin-bottom: 35px; }
+
+.slapy {
+  margin-top: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+body {
+  color: #111;
+  background-image: url(..//images/fondo/Fondo.jpg);
+  background-attachment: fixed; }
+
+header {
+  margin-top: 35px;
+  margin-bottom: -35px; }
+
+section {
+  margin-top: 70px;
+  margin-bottom: 70px; }
+
+h1,
+h2,
+h3 {
+  font-weight: bold; }
+
+h2 {
+  font-size: 40px;
+  letter-spacing: 0;
+  margin-top: 10px;
+  color: #e16178; }
+
+h3 {
+  font-size: 20px;
+  letter-spacing: 1px;
+  margin-top: 10px;
+  color: black;
+  color: #111;
+  text-transform: uppercase; }
+
+.navbar .container-fluid {
+  padding: 0 !important; }
+
+.navbar-nav {
+  justify-content: space-between;
+  align-items: center;
+  width: 100%; }
+  .navbar-nav a {
+    padding: 10px 30px; }
+  .navbar-nav .nav-link.active {
+    font-weight: bold; }
+
+.navbar__paginas {
+  display: flex; }
+
+.navbar__usuario {
+  display: flex; }
+  .navbar__usuario .nav-link {
+    background-color: #fff;
+    padding: 5px 10px;
+    margin-bottom: 15px;
+    color: #ec2049;
+    font-size: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 6px;
+    border: 1px solid #ec2049;
+    color: #ec2049 !important;
+    margin-bottom: 0; }
+    .navbar__usuario .nav-link:last-child {
+      margin-left: 10px; }
+    @media screen and (min-width: 992px) {
+      .navbar__usuario .nav-link {
+        margin-left: 10px; } }
+
+.divisor-sm {
+  background-color: #ec2049;
+  height: 2px;
+  width: 35px;
+  margin-bottom: 17.5px;
+  margin-top: 17.5px; }
+
+.link--texto {
+  text-decoration: none;
+  color: #ec2049; }
+
+.titulo-link {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 35px;
+  padding-bottom: 17.5px;
+  border-bottom: 2px solid #ec2049; }
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #111;
+  margin-top: 140px;
+  padding-top: 17.5px;
+  padding-bottom: 35px; }
+
+.footer__copyright {
+  font-size: 13px; }
+
+.bloque4 {
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column; }

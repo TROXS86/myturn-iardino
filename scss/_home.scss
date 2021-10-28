@@ -1,0 +1,173 @@
+.section-novedades{
+    .divisor{
+        @include linea($margen-sm);
+    }
+}
+.section-novedades__contenedor{
+    display: flex;
+}
+.section-novedades__iframe{
+    border-radius: 6px;
+}
+.novedades.bloque4{
+    margin-left: 0%;
+    display: flex;
+    flex-direction: column; 
+    @media screen and (min-width: 992px){
+        margin-left: $margen-sm;
+    }
+}
+.novedad__titulo{
+    margin-bottom: 10px;
+}
+.novedad__texto{
+    margin-bottom: 5px;
+}
+.juego-nuevo{
+    display: flex;
+    margin-bottom: $margen-sm;
+    .divisor{
+        @include linea($margen-lg);
+    }
+}
+.categorias{ 
+    display: flex;
+}
+.categoria{
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+}
+.categoria.genero{
+    @include etiqueta($color-rojo, $color-blanco, $color-rojo);
+}
+.categoria.players{
+    @include etiqueta($color-blanco, $color-rojo, $color-rojo);
+}
+.categoria.dificultad{
+    @include etiqueta($color-salmon, $color-blanco, $color-salmon);
+}
+.categoria.tiempo{
+    @include etiqueta($color-rosa, $color-blanco, $color-rosa);
+}
+.juego-nuevo__imagen{
+    width: calc(40% - 40px);
+    margin-right: 40px;
+    flex-shrink: 0;
+}
+.juego-nuevo__texto{
+    @media screen and (min-width: 1200px){
+        width:60%;
+        padding-right: 40px;
+    }
+    
+    p{
+        margin-bottom: $margen-sm;
+    }
+}
+.home-link__link{
+    text-decoration: none;
+    border: 0!important;
+}
+.home-link__titulo{
+    font-size: 26px;
+    margin-bottom: $margen-sm / 2;
+    text-transform: none;
+}
+.imagen {
+    display: block;
+    width: 100%;
+    height: auto;
+    padding-left: 20px;
+}
+.imagen2 {
+    width: 20%;
+    height: auto;
+}
+.rectangulo {
+    background-color: $color-rosa;
+    height: 35px;
+    width: 8px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 5px;
+}
+.bloque {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    width: 100%
+}
+.bloque3 {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: $margen-lg;
+    @media screen and (min-width: 768px){   
+        flex-direction: row;
+    }
+}
+.bloque5{
+    display:flex;
+    flex-direction: row-reverse;
+    @media screen and (max-width: $smartphone){  
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+.--just {
+    justify-content: center;
+}
+.rowalt {
+    margin-top: 35px;
+}
+.contend {
+    display: flex;
+    height: auto;
+    display: inline;
+}
+.ingresar {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+th {
+    width: 20%;
+    text-transform: uppercase;
+}
+.imag {
+    padding-left: 0px;
+    max-width: 350px;
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    @media screen and (min-width: 768px){
+        padding-left: 35px;
+        max-width: none;
+    }
+}
+:first-letter {
+    text-transform: capitalize;
+}
+p {
+    text-transform: none;
+}
+.reg {
+    grid-area: reg;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-style: solid;
+    border-color: rgb(230, 76, 102);
+    border-radius: 10px;
+    margin-top: 70px;
+    background-image: linear-gradient(to bottom, rgb(255, 255, 255), rgb(221, 221, 219));
+}
+.novedades-video{
+    width: 100%;
+    height: 100%;
+    min-height: 350px;
+}
+

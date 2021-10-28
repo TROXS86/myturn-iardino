@@ -1,0 +1,107 @@
+@import "_variables.scss";
+@import "_colores.scss";
+@import "_mixins.scss";
+@import "_home.scss";
+@import "_mediaquery.scss";
+@import "_novedades.scss";
+@import "_comojugar.scss";
+@import "_404.scss";
+
+
+body {
+    color: $color-negro;
+    background-image: url(..//images/fondo/Fondo.jpg);
+    background-attachment: fixed;
+}
+header {
+    margin-top: $margen-sm;
+    margin-bottom: -$margen-sm;
+}
+section {
+    margin-top: $margen-lg;
+    margin-bottom: $margen-lg;
+}
+h1,
+h2,
+h3 {
+    font-weight: bold;
+}
+h2 {
+    @include subtitulos($color-salmon, 0, 40px);
+}
+h3 {
+    @include subtitulos(black, 1px, 20px);
+    color: $color-negro;
+    text-transform: uppercase;
+}
+.navbar{
+    .container-fluid{
+        padding:0!important;
+    }
+}
+.navbar-nav {
+    justify-content: space-between;
+    align-items:center;
+    width: 100%;
+    a {
+        padding: 10px 30px;
+    }
+    .nav-link.active {
+        font-weight: bold;
+    }
+}
+.navbar__paginas{
+    display: flex;  
+}
+.navbar__usuario{
+    display: flex;
+    .nav-link{
+        @include etiqueta($color-blanco, $color-rojo, $color-rojo);
+        color: $color-rojo!important;
+        margin-bottom: 0;
+        &:last-child{
+            margin-left: 10px;
+        }
+        @media screen and (min-width: 992px)
+        {
+            margin-left: 10px;
+        }
+    }  
+}
+.divisor-sm {
+    background-color: $color-rojo;
+    height: 2px;
+    width: $margen-sm;
+    margin-bottom: $margen-sm / 2;
+    margin-top: $margen-sm / 2;
+}
+.link--texto{
+    @include linkSinLinea;
+    color: $color-rojo;
+}
+.titulo-link{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: $margen-sm;
+    padding-bottom: $margen-sm / 2;
+    border-bottom: 2px solid $color-rojo; 
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid $color-negro;
+    margin-top: $margen-lg * 2;
+    padding-top: $margen-sm / 2;
+    padding-bottom: $margen-sm;
+}
+.footer__copyright{
+    font-size: 13px;
+}
+.bloque4
+{
+margin-left: 20px;
+display: flex;
+flex-direction: column;
+}
